@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* fare sezione commons e sezione debug per creare una struttura*/
+
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    /* max-width: 1280px; */
+    /* margin: auto; */
+}
+
+header, .section.one {
+    margin-bottom: 20px;
+}
+/* ha dato margin-bottom:20px solo all'header */
+
+header {
+    background-color: rgb(229, 121, 230);
+    min-height: 150px;
+}
+    /* giusto */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.section.one {
+    background-color: rgb(225, 214, 122);
+    min-height: 500px;
+}
+    /* giusto */
+
+.section.two {
+    background-color: rgb(0, 135, 255);
+    min-height: 800px;
+    margin-bottom: 5px;
+}
+
+.section-header {
+    background-color: rgb(171, 207, 231);
+    min-height: 100px;
+    margin-bottom: 20px;
+}
+    /* margin-bottom:15 px */
+
+.col {
+    background-color: rgb(171, 207, 231);
+    min-height: 700px;
+    /* min-height: 150px; */
+    margin-bottom: 20px;
+    float: left;
+}
+
+.left, .right {
+    min-width: 20%;
+    /* lui ha messo width: 20%; */
+}
+
+.middle {
+    min-width: calc(60% - 40px);
+    margin: 0 20px;
+}
+    /* giusto */
+
+footer {
+    background-color: rgb(136, 1, 254);
+    min-height: 60px;
+    margin-top: 10px;
+}
