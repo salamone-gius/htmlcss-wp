@@ -9,13 +9,11 @@
     margin: 20px auto;
     font-family: 'Montserrat', sans-serif;
     color: #8A8A8A;
-    /* margin: auto; */
 }
 
 header, .banner, .logo {
     margin-bottom: 20px;
 }
-/* ha dato margin-bottom:20px solo all'header */
 
 header {
     min-height: 150px;
@@ -46,12 +44,17 @@ a {
     clear: both;
 }
 
+/* .dark {
+    set darkness
+} */
+
 .banner {
+    width: 100%;
     min-height: 500px;
     background-image: url("../img/banner.jpg");
     background-position: center;
     border-radius: 10px;
-    position: relative;
+    /* to fix: background repeat */
 }
 
 .banner-text {
@@ -70,12 +73,17 @@ h2 {
     margin-bottom: 5px;
 }
 
-.section-header {
-    background-color: rgb(171, 207, 231);
+.title {
     min-height: 100px;
     margin-bottom: 20px;
 }
-    /* margin-bottom:15 px */
+
+h1 {
+    color: black;
+    font-size: 40px;
+    /* to fix: bold h1 (maybe download from g-fonts) */
+    /* and align text in the middle */
+}
 
 .col {
     background-color: rgb(171, 207, 231);
@@ -83,6 +91,11 @@ h2 {
     /* min-height: 150px; */
     margin-bottom: 20px;
     float: left;
+}
+
+.article-img {
+    max-width: 214px;
+    max-height: 214px;
 }
 
 .left, .right {
