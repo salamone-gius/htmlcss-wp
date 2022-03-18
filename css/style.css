@@ -4,27 +4,41 @@
     padding: 0;
 }
 
-
-/* fare sezione commons e sezione debug per creare una struttura*/
-
-
 .container {
     width: 80%;
     margin: 20px auto;
-    /* max-width: 1280px; */
+    font-family: 'Montserrat', sans-serif;
+    color: #8A8A8A;
     /* margin: auto; */
 }
 
-header, .section.one {
+header, .section.one, .logo {
     margin-bottom: 20px;
 }
 /* ha dato margin-bottom:20px solo all'header */
 
 header {
-    background-color: rgb(229, 121, 230);
     min-height: 150px;
 }
-    /* giusto */
+
+.logo {
+    height: 64px;
+    width: 183px;
+    border-right: 1px solid #8A8A8A;
+    padding-right: 20px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #8A8A8A;
+    font-size: 20px;  
+}
 
 .clearfix::after {
     content: "";
