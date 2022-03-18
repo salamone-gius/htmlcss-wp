@@ -12,7 +12,7 @@
     /* margin: auto; */
 }
 
-header, .section.one, .logo {
+header, .banner, .logo {
     margin-bottom: 20px;
 }
 /* ha dato margin-bottom:20px solo all'header */
@@ -46,11 +46,23 @@ a {
     clear: both;
 }
 
-.section.one {
-    background-color: rgb(225, 214, 122);
+.banner {
     min-height: 500px;
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
 }
-    /* giusto */
+
+.banner-text {
+    width: 50%;
+    color: grey;
+    padding: 300px 0 0 50px;
+}
+
+h2 {
+    font-weight: normal;
+}
 
 .section.two {
     background-color: rgb(0, 135, 255);
