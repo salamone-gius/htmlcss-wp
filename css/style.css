@@ -11,7 +11,7 @@
     color: #8A8A8A;
 }
 
-header, h3, .banner, .logo, .background {
+header, h3, .banner, .logo, .background, .col {
     margin-bottom: 20px;
 }
 
@@ -51,7 +51,7 @@ a {
 }
 
 .banner-text {
-    width: 50%;
+    max-width: 50%;
     color: white;
     padding: 300px 0 100px 50px;
 }
@@ -67,19 +67,15 @@ h2 {
 
 .title {
     min-height: 100px;
-    margin-bottom: 20px;
 }
 
 h1 {
     color: black;
     font-size: 40px;
-    /* to fix: bold h1 (maybe download from g-fonts) */
-    /* and align text in the middle con line-height*/
 }
 
 .col {
     min-height: 700px;
-    margin-bottom: 20px;
     float: left;
 }
 
@@ -123,6 +119,7 @@ footer {
 }
 
 footer span {
+    /* important: remember this descendat selector */
     color: red;
     font-size: larger;
     vertical-align: middle;
